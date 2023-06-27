@@ -9,7 +9,8 @@ const pwaOptions: Partial<VitePWAOptions> = {
     manifest: {
         name: 'Item Calculator',
         short_name: 'Item Calc',
-        theme_color: '#ffffff',
+        theme_color: '#242424',
+        background_color: '#242424',
         icons: [
             {
                 src: 'pwa-192x192.png', // <== don't add slash, for testing

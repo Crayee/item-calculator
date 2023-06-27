@@ -15,6 +15,7 @@ const AddItemDialog = (props: {
         props.onAddItem({ title: title, price: Number(price) })
         setPrice('')
         setTitle('')
+        props.onClose()
     }
 
     return (
