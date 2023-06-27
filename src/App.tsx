@@ -1,11 +1,28 @@
-import { Button, createTheme, ThemeProvider } from '@mui/material'
+import { createTheme, ThemeProvider } from '@mui/material'
+import CalculatePage from './base/components/CalculatePage'
 
 function App() {
-    const theme = createTheme({})
+    const theme = createTheme({
+        palette: {
+            mode: 'dark',
+        },
+        components: {
+            MuiCardContent: {
+                styleOverrides: {
+                    root: {
+                        padding: 8,
+                        '&:last-child': {
+                            paddingBottom: 8,
+                        },
+                    },
+                },
+            },
+        },
+    })
 
     return (
         <ThemeProvider theme={theme}>
-            <Button variant={'filled'}>Test</Button>
+            <CalculatePage />
         </ThemeProvider>
     )
 }
