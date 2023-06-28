@@ -5,3 +5,5 @@ This is a simple PWA, designed to help some friends selling drinks and food at f
 Hosted at: https://crazy-item-calculator.netlify.app/
 
 Just download it from the site.
+
+![crazy-item-calculator netlify app_(iPhone 5_SE)](https://github.com/Crayee/item-calculator/assets/95137568/b464e874-f9cf-4d59-b257-bafb09bab001)
